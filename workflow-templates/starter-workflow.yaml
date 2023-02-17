@@ -1,0 +1,9 @@
+name: StarterWorkflow
+on: [push]
+jobs:
+  simple-job:
+    runs-on: unbuntu-latest
+    steps:
+      - name: Print
+        run: echo "Hello World"
+
